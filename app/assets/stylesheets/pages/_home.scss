@@ -16,19 +16,32 @@ body {
   flex-direction: column;
 }
 .welcome {
-  min-height: 300px;
+  min-height: 600px;
+  height: 1000px;
   flex-direction: column;
   justify-content: center;
   color: white;
   background-size: cover;
-  align-items: center;
-  background-color: purple;
-  text-align: center;
-  display:flex;
+  padding: 20px 20px;
+  background-color: black;
+  display: flex;
+  text-align: left;
 }
 
+
+.welcome-name {
+  font-size: 40px;
+}
+
+.welcome-text {
+  font-size: 25px;
+}
+
+
+
 .about-me {
-  min-height: 300px;
+  max-height: 500px;
+  height: 900px;
   flex-direction: column;
   justify-content: center;
   color: white;
@@ -50,6 +63,11 @@ p {
   color: white;
 }
 
+#features-title {
+  text-align: left;
+  font-size: 40px;
+
+}
 .feature-skills {
   background-color: black;
 }
@@ -62,6 +80,10 @@ p {
   color: white;
 }
 
+#features-text{
+  font-size: 25px;
+  text-align: justify;
+}
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -90,6 +112,8 @@ i {
   margin-left: 60px;
   padding: 30px 30px;
   margin: 10px 30px;
+  justify-content: center;
+  align-items: center;
 }
 .card{
   width: 320px;
