@@ -1,9 +1,16 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="container-fluid">
 
+    <div class="btn-group-navbar">
+      <%=link_to "https://github.com/fernandagabrielabraga/what_the_help", target: :_blank do %>
+        <span class="btn btn-lg btn-custom">GitHub</span>
+      <%end%>
 
-    <%=link_to "https://github.com/fernandagabrielabraga/what_the_help", target: :_blank do %>
-      <button class="card-btn card-git">GitHub</button>
-    <%end%>
+      <%= link_to "Resume", download_pdf_path(format: :pdf), :class => "themed_text", class: "btn btn-lg btn-custom" %>
+
+      <%=link_to "https://github.com/fernandagabrielabraga/what_the_help", target: :_blank do %>
+        <span class="btn btn-lg btn-custom">Linkedin</span>
+      <%end%>
+    </div>
   </div>
 </div>
