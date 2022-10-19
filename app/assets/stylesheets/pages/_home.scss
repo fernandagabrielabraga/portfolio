@@ -108,7 +108,6 @@ p {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding-top: 40px;
 }
 
@@ -207,7 +206,7 @@ li {
 .card-info{
   font-size: 13px;
   line-height: 20px;
-  margin: 5px;
+  padding-top: 20px;
   font-weight: 400;
   text-align: center;
   color: black;
@@ -217,18 +216,19 @@ li {
   color: black;;
   background: #eaf2ef;
   padding: 5px 5px;
-  width: 120px;
+  width: 100px;
   border-radius: 5px;
   text-transform: capitalize;
   border: none;
   outline: none;
   font-weight: 500;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
 }
 
 .card-git{
-  margin-left: 10px;
+  margin-left:27px;
 }
 
 .projects-icon {

@@ -21,7 +21,7 @@
             Teacher to a ton of lines of code.
           </p>
           <p id="features-text">
-            I recently graduated from a coding Bootcamp - Le Wagon - where I discovered a passion
+            I recently graduated from Le Wagon - where I discovered a passion
             for creating cool things from scratch.
           </p>
           <p id="features-text">
@@ -105,8 +105,12 @@
           <div class="card-body">
             <p class="card-info">A plataform that connect people willing to assist others and ensure they are guided on every step of the way.</p>
             <div class="btn-group">
-              <button class="card-btn">View Live</button>
-              <button class="card-btn card-git">GitHub</button>
+              <%=link_to "https://what-the-help.herokuapp.com/", target: :_blank do %>
+                <button class="card-btn">View Live</button>
+              <%end%>
+              <%=link_to "https://github.com/fernandagabrielabraga/what_the_help", target: :_blank do %>
+                <button class="card-btn card-git">GitHub</button>
+              <%end%>
             </div>
           </div>
         </div>
@@ -117,8 +121,12 @@
           <div class="card-body">
             <p class="card-info">A simple, yet fully functional weather app.</p>
             <div class="btn-group">
-              <button class="card-btn">View Live</button>
-              <button class="card-btn card-git">GitHub</button>
+              <%=link_to "https://cranky-yalow-94baec.netlify.app/", target: :_blank do %>
+                <button class="card-btn">View Live</button>
+              <%end%>
+              <%=link_to "https://github.com/fernandagabrielabraga/weather-app", target: :_blank do %>
+                <button class="card-btn card-git">GitHub</button>
+              <%end%>
             </div>
           </div>
         </div>
