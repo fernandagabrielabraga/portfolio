@@ -1,7 +1,12 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="container-fluid">
 
-    <ul class="btn-group-navbar navbar-nav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
       <li class="nav-item">
         <%=link_to "https://github.com/fernandagabrielabraga", target: :_blank do %>
           <span class="btn-navbar btn-lg btn-custom">GitHub</span>
@@ -15,6 +20,7 @@
           <span class="btn-navbar btn-lg btn-custom">Linkedin</span>
         <%end%>
       </li>
+      </ul>
     </div>
   </div>
 </div>
